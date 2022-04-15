@@ -7,7 +7,7 @@ void main() {
   int total = 200;
   int vendidos = 50;
   int razao = (total - vendidos);
-  bool restantes = (razao > 0);
+  bool restantes = (razao >= 0);
 
   print("Total de tomates? $total");
   print("Tomates vendidos? $vendidos");
